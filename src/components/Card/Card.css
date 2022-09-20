@@ -14,11 +14,22 @@
     padding: 18px;
 }
 
-.card h2 {
+.card p {
     font-size: 15px;
     font-weight: 400;
 }
 
-.card p {
-    font-size: 11px;
+.card button {
+    padding: 0 1rem 0 1rem;
+    background-color: #7983F6;
+    color: #F7F9FC;
+    border: none;
+}
+
+.edit-btn:hover {
+    color: #0ACF97;
+}
+
+.delete-btn:hover {
+    color: #FA5C7C;
 }
